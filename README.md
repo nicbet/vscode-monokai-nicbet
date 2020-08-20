@@ -13,6 +13,11 @@ Please note that screenshot is taken while using these settings:
   "editor.fontSize": 15
 ```
 
+## What's New?
+
+- `0.1.1` Add support for React (JS, JSX) syntax highlights
+- `0.1.0` Initial Color theme with support for Ruby and Ruby on Rails
+
 ## Features
 
 That's the list of things I wanted to focus on while developing my version of Monokai:

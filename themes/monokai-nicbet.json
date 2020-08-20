@@ -21,8 +21,8 @@
         "editorGutter.deletedBackground": "#790F3F",
         "editorGutter.background": "#1D1E26",
         // Editor - Indentation Guides
-        "editorIndentGuide.background": "#333333",
-        "editorIndentGuide.activeBackground": "#FDCA0E",
+        // "editorIndentGuide.background": "#333333",
+        // "editorIndentGuide.activeBackground": "#FDCA0E",
         // Status Bar
         "statusBar.background": "#0F1014",
         "statusBarItem.prominentBackground": "#FF006B",
@@ -50,7 +50,7 @@
         "editorOverviewRuler.deletedForeground": "#181920",
         // VSCode Remote icon
         "statusBarItem.remoteBackground": "#121519",
-        "statusBarItem.remoteForeground": "#ccc",
+        "statusBarItem.remoteForeground": "#ccc"
     },
 
     "tokenColors": [
@@ -90,8 +90,10 @@
                 "variable.other.object.property",
                 "entity.name.tag.css",
                 "entity.name.tag.html",
+                "entity.name.tag.js",
+                "entity.name.tag.js.jsx",
                 "punctuation.section.embedded.begin.erb",
-                "punctuation.section.embedded.end.erb",
+                "punctuation.section.embedded.end.erb"
             ],
             "settings": {
                 "foreground": "#FF006B"
@@ -129,6 +131,8 @@
             "entity.other.inherited-class.ts",
             "meta.property-name.scss",
             "support.type.property-name.css",
+            "support.class.component.js",
+            "support.class.component.js.jsx"
           ],
           "settings": {
               "foreground": "#30F5FF",
@@ -169,7 +173,11 @@
         {
             "name": "Hash Keys",
             "scope": [
-                "constant.language.symbol.hashkey.ruby"
+                "constant.language.symbol.hashkey.ruby",
+                "meta.object-literal.key.js",
+                "meta.object-literal.key.js.jsx",
+                "punctuation.separator.key-value.js",
+                "punctuation.separator.key-value.js.jsx"
             ],
             "settings": {
                 "foreground": "#A372FF",
@@ -180,7 +188,11 @@
             "name": "Embedded Ruby",
             "scope": [
                 "punctuation.section.embedded.begin.ruby",
-                "punctuation.section.embedded.end.ruby"
+                "punctuation.section.embedded.end.ruby",
+                "punctuation.section.embedded.begin.js",
+                "punctuation.section.embedded.begin.js.jsx",
+                "punctuation.section.embedded.end.js",
+                "punctuation.section.embedded.end.js.jsx"
             ],
             "settings": {
                 "foreground": "#30F5FF",
@@ -194,8 +206,10 @@
                 "support.function",
                 "entity.other.attribute-name.class.css",
                 "entity.other.attribute-name.html",
+                "entity.other.attribute-name.js",
+                "entity.other.attribute-name.js.jsx",
                 "meta.attribute.lang.html",
-                "keyword.other.special-method.ruby",
+                "keyword.other.special-method.ruby"
             ],
             "settings": {
                 "foreground": "#95FF17",
@@ -213,7 +227,7 @@
                 "variable.other.block.ruby",
                 "meta.block.parameters.ruby",
                 "meta.definition.property.ts",
-                "entity.name.type.module.ruby",
+                "entity.name.type.module.ruby"
             ],
             "settings": {
                 "foreground": "#F6AA11"
