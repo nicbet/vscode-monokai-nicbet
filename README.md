@@ -3,18 +3,12 @@
 This theme has been developed while using it with Ruby on Rails, JavaScript ES6, and SASS.
 
 ## Screenshot
+
 ![Theme Screenshot](screenshot-v0.1.0.png)
-
-Please note that screenshot is taken while using these settings:
-
-```
-  "editor.renderWhitespace": "selection",
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontSize": 15
-```
 
 ## What's New?
 
+- `0.1.2` Added custom terminal color scheme, improved ERB highlighting
 - `0.1.1` Add support for React (JS, JSX) syntax highlights
 - `0.1.0` Initial Color theme with support for Ruby and Ruby on Rails
 
@@ -45,7 +39,7 @@ $ cd ~/.vscode/extensions/
 Clone repository as `monokai-nicbet`:
 
 ```bash
-$ git clone https://github.com/nicbet/vscode-monokai-nicbet nicbet.monokai-nicbet-0.1.0
+$ git clone https://github.com/nicbet/vscode-monokai-nicbet nicbet.monokai-nicbet-0.1.2
 ```
 
 Now you can select this theme from the Theme selector in VSCode

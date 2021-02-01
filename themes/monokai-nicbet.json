@@ -27,10 +27,10 @@
         "statusBar.background": "#0F1014",
         "statusBarItem.prominentBackground": "#FF006B",
         // Title Bar
-        "titleBar.activeBackground": "#0F1014",
-        "titleBar.activeForeground": "#DDDDDD",
-        "titleBar.inactiveBackground": "#0F1014",
-        "titleBar.inactiveForeground": "#999999",
+        "titleBar.activeBackground": "#282c34",
+        "titleBar.activeForeground": "#9da5b4",
+        "titleBar.inactiveBackground": "#282c34",
+        "titleBar.inactiveForeground": "#6b717d",
         // Editor Groups and Tabs
         "editorGroup.background": "#0F1014",
         "editorGroupHeader.noTabsBackground": "#0F1014",
@@ -50,7 +50,25 @@
         "editorOverviewRuler.deletedForeground": "#181920",
         // VSCode Remote icon
         "statusBarItem.remoteBackground": "#121519",
-        "statusBarItem.remoteForeground": "#ccc"
+        "statusBarItem.remoteForeground": "#ccc",
+        // Terminal
+        "terminal.background": "#11110f",
+        "terminal.ansiBlack": "#ffffff",
+        "terminal.ansiBlue": "#5787fd",
+        "terminal.ansiBrightBlack": "#a6a6a6",
+        "terminal.ansiBrightBlue": "#d6e8fe",
+        "terminal.ansiBrightCyan": "#84d7ec",
+        "terminal.ansiBrightGreen": "#e3fabb",
+        "terminal.ansiBrightMagenta": "#edb8fd",
+        "terminal.ansiBrightRed": "#f0c7be",
+        "terminal.ansiBrightWhite": "#ffffff",
+        "terminal.ansiBrightYellow": "#fefdd6",
+        "terminal.ansiCyan": "#84d7ec",
+        "terminal.ansiGreen": "#8be335",
+        "terminal.ansiMagenta": "#e21d5b",
+        "terminal.ansiRed": "#eb2175",
+        "terminal.ansiWhite": "#dfdfdf",
+        "terminal.ansiYellow": "#e0dd5f",
     },
 
     "tokenColors": [
@@ -232,6 +250,15 @@
             "settings": {
                 "foreground": "#F6AA11"
             }
+        },
+        {
+          "name": "Embedded Ruby ERB Line",
+          "scope": [
+            "meta.embedded.line.erb"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
         }
     ]
 }
