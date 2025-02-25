@@ -1,41 +1,44 @@
 {
-    "name": "monokai-nicbet",
-    "displayName": "Monokai Nicbet",
-    "description": "Color scheme for Visual Studio Code",
-    "version": "0.1.2",
-    "publisher": "nicbet",
-    "license": "CC0-1.0",
-    "author": {
-        "name": "Nicolas Bettenburg",
-        "url": "http://github.com/nicbet"
-    },
-    "keywords": [
-        "visual studio code",
-        "themes",
-        "color theme",
-        "theming",
-        "extension"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nicbet/vscode-monokai-nicbet.git"
-    },
-    "bugs": {
-        "url": "https://github.com/nicbet/vscode-monokai-nicbet/issues"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai Nicbet",
-                "uiTheme": "vs-dark",
-                "path": "./themes/monokai-nicbet.json"
-            }
-        ]
-    }
+	"name": "monokai-nicbet",
+	"displayName": "Monokai Nicbet",
+	"description": "Color scheme for Visual Studio Code",
+	"version": "0.1.2",
+	"publisher": "nicbet",
+	"license": "CC0-1.0",
+	"author": {
+		"name": "Nicolas Bettenburg",
+		"url": "http://github.com/nicbet"
+	},
+	"keywords": [
+		"visual studio code",
+		"themes",
+		"color theme",
+		"theming",
+		"extension"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nicbet/vscode-monokai-nicbet.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nicbet/vscode-monokai-nicbet/issues"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Nicbet",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-nicbet.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 171399
+	}
 }
