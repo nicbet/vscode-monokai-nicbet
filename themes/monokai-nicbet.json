@@ -2,12 +2,17 @@
   "name": "Monokai Nicbet",
   "type": "dark",
   "colors": {
+    "window.activeBorder": "#666",
+    "window.inactiveBorder": "#ff000000",
     "editor.background": "#181920",
     "editor.foreground": "#ffffff",
+    "editorGroup.border": "#8b8b8b",
+    "editorIndentGuide.activeBackground1": "#ff008c",
     "editor.lineHighlightBackground": "#2F2F34",
     "editorWhitespace.foreground": "#424242",
     "editorIndentGuide.background": "#616161",
     "editor.findMatchHighlightBackground": "#DD2C00",
+    "editor.wordHighlightBackground": "#00000000", // Remove after VSCode fix delivered
     "tree.indentGuidesStroke": "#FFFFFF80",
     // Activity Bar
     "activityBar.background": "#0D0F12",
@@ -20,9 +25,13 @@
     "editorGutter.addedBackground": "#165C3C",
     "editorGutter.deletedBackground": "#790F3F",
     "editorGutter.background": "#1D1E26",
-    // Editor - Indentation Guides
-    // "editorIndentGuide.background": "#333333",
-    // "editorIndentGuide.activeBackground": "#FDCA0E",
+    // Editor - Bracket Highlights
+    "editorBracketHighlight.foreground1": "#FFD700",
+    "editorBracketHighlight.foreground2": "#DA70D6",
+    "editorBracketHighlight.foreground3": "#87CEFA",
+    "editorBracketHighlight.foreground4": "#FA8072",
+    "editorBracketHighlight.foreground5": "#7CFC00",
+    "editorBracketHighlight.foreground6": "#FF8C00",
     // Status Bar
     "statusBar.background": "#0F1014",
     "statusBarItem.prominentBackground": "#FF006B",
@@ -288,6 +297,15 @@
       ],
       "settings": {
         "foreground": "#F6AA11"
+      }
+    },
+    {
+      "name": "HERB Slots",
+      "scope": [
+        "entity.other.attribute-name.slot"
+      ],
+      "settings": {
+        "foreground": "#fac887"
       }
     }
   ]
